@@ -1,0 +1,69 @@
+; Location 1
+
+@back bg_Scene
+Hello! What is your name?
+
+@input PlayerName summary:"Choose your name."
+@stop
+
+;1---------------------------------------------------------------------------------------------
+
+Archibald: Hello {PlayerName}![i] Nice to see you. [i]I have an important task for you.
+@wait 1
+@questUpdate questName:"Quest received"
+
+;2---------------------------------------------------------------------------------------------
+
+Archibald: You should talk to Ben in Location2. He knows how to help.
+@wait 1
+
+@questUpdate questName:"Get information from NPC-2"
+
+;3---------------------------------------------------------------------------------------------
+; Location 2
+
+@back bg1
+Ben: Hello {PlayerName}![i] I heard that you were looking for me.
+@wait 0.5
+Ben: I have a mini-game for you. [i]Go through it and I will give you the information you need!
+@wait 0.5
+
+@startMiniGame wait:true
+
+Ben: You completed the mini-game! [i]Now I can help you.
+
+@questUpdate questName:"Get an interactive item"
+
+;4---------------------------------------------------------------------------------------------
+
+
+Ben: Go to Location3 and pick up the item.
+
+; Location 3
+@back bg2
+;@item "item_sprite"
+
+{PlayerName}: This is the very item I need!
+
+@questUpdate questName:"Pick up item"
+
+;5---------------------------------------------------------------------------------------------
+; Location 2 (без НПЦ)
+
+@back bg1
+
+{PlayerName}: I'm here again... [i]But Ben is missing.
+@questUpdate questName:"Talk to yourself"
+
+;6---------------------------------------------------------------------------------------------
+; Location 1
+
+@back bg_Scene
+
+
+
+
+;7---------------------------------------------------------------------------------------------
+
+
+@stop

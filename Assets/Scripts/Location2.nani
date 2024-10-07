@@ -1,0 +1,19 @@
+
+@back bg1
+
+Ben: Hello {PlayerName}![i] I heard that you were looking for me.
+@wait 0.5
+Ben: I have a mini-game for you. [i]Go through it and I will give you the information you need!
+@wait 0.5
+
+@startMiniGame wait:true
+
+@back bg2
+
+Ben: You completed the mini-game! [i]Now I can help you.
+
+@questUpdate questName:"Get an interactive item"
+
+Ben: Go to Location - 3 and pick up the item.
+
+@stop

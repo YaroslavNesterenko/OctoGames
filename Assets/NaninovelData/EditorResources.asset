@@ -166,3 +166,34 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+  - Id: Scripts
+    Resources:
+    - name: Quest
+      pathPrefix: Scripts
+      guid: ea8cd1063d40c054bb50701c9255c205
+    - name: Location2
+      pathPrefix: Scripts
+      guid: 99eb484b1f815e243882e8aa0b63de02
+  - Id: Backgrounds/04758d49-d2af-4006-bb55-d067d1026b58
+    Resources:
+    - name: bg1
+      pathPrefix: Backgrounds/MainBackground
+      guid: f7cc00a4bfc4abf4eaa57393773a4797
+    - name: bg2
+      pathPrefix: Backgrounds/MainBackground
+      guid: 28413ae1a97be034eb8813b75282585f
+    - name: bg3
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4a5d168a8c1f7f04a8d3157208be5774
+    - name: bg4
+      pathPrefix: Backgrounds/MainBackground
+      guid: 766a594eedaec8846a30a18e532ce193
+    - name: bg5
+      pathPrefix: Backgrounds/MainBackground
+      guid: dc68765a7daf4034494c49612d6a704c
+    - name: bg6
+      pathPrefix: Backgrounds/MainBackground
+      guid: 0706397dcddd417428712b7584f2cbd3
+    - name: bg_Scene
+      pathPrefix: Backgrounds/MainBackground
+      guid: cc23b315f775d8541aa30042704019af
