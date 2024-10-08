@@ -1,0 +1,109 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `StartLocation` naninovel script
+
+# 720aac48
+; Hello! What is your name?
+Привіт! Як тебе звати?
+
+# f4c8a666
+; @input PlayerName summary:"Choose your name."
+@input PlayerName summary:"Вибери своє ім'я".
+
+# acd5ecbc
+; Archibald: Hello {PlayerName}![i] Nice to see you. [i]I have an important task for you.
+Archibald: Привіт, {PlayerName}![i]Радий тебе бачити.[i]Маю для тебе важливе завдання.
+
+# f1161213
+; Archibald: You should talk to Ben in Location2. [i]He knows how to help.
+Archibald: Тобі слід поговорити з Беном у Локація2.[i]Він знає, як допомогти.
+
+# 48d93ebe
+; Ben: Hello {PlayerName}![i] I heard that you were looking for me.
+Ben: Привіт, {PlayerName}![i]Я чув, що ти мене шукаєш.
+
+# f405820f
+; Ben: I have a mini-game for you. [i]Go through it and I will give you the information you need!
+Ben: У мене для тебе є міні-гра.[i]Пройди його, і я надам тобі необхідну інформацію!
+
+# b79beca0
+; Ben: You completed the mini-game! [i]Now I can help you.
+Ben: Ти завершив міні-гру![i]Тепер я можу тобі допомогти.
+
+# 325e4fd
+; Ben: Go to Location3 and pick up the item.
+Ben: Перейди до Локації3 і візьми предмет.
+
+# afaa5f94
+; {PlayerName}: This is the very item I need!
+{PlayerName}: Це саме той предмет, який мені потрібен!
+
+# 541a9b6c
+; {PlayerName}: I'm here again... [i]But Ben is missing.
+{PlayerName}: Я знову тут...[i]Але Бена немає.
+
+# 3af675c
+; Archibald: Hello again, {PlayerName}! [i]Are you back?
+Archibald: Ще раз привіт, {PlayerName}![i]Ти повернувся?
+
+# f3c0f18
+; Ben: And what is your item?
+Ben: А який у тебе предмет?
+
+# 1cd0815c
+; Archibald: Give me this item and I will help you with your further tasks.
+Archibald: Дай мені цей предмет, і я допоможу тобі у подальших справах.
+
+# 35d41fc9
+; Ben: No, {PlayerName}! [i]Better give it to me! [i]I'm more needed.
+Ben: Ні, {PlayerName}![i]Краще віддайте мені![i]Мені більш потрібно.
+
+# 2b3c4a9f
+; @choice "Give to Archibald" goto:.ChooseArchibald
+@choice "Віддати Арчибальду" goto:.ChooseArchibald
+
+# 6dd8ff16
+; @choice "Give to Ben" goto:.ChooseBen
+@choice "Віддати Бену" goto:.ChooseBen
+
+# a078deb
+; @choice "Keep the item for yourself" goto:.ChooseYourself
+@choice "Залишити предмет собі" goto:.ChooseYourself
+
+# d3893c6a
+; {PlayerName}: Okay, I'll give it to you, Archibald.
+{PlayerName}: Гаразд, я віддам його тобі, Арчибальде.
+
+# 12053c52
+; Archibald: Thank you, {PlayerName}! I knew I could rely on you.
+Archibald: Дякую, {PlayerName}! Я знав, що можу на тебе покластися.
+
+# d6d3b1df
+; Ben: How could you! I needed this!
+Ben: Як ти міг! Мені це було потрібно!
+
+# c85e020d
+; {PlayerName}: This item is needed by Ben. [i]I'm giving it to you.
+{PlayerName}: Цей предмет потрібен Бену.[i]Я віддаю його тобі.
+
+# cd58c3a
+; Ben: Thank you! [i]I knew you would make the right choice.
+Ben: Дякую![i]Я знав, що ти зробиш правильний вибір.
+
+# 2c86c374
+; Archibald: You disappointed me, {PlayerName}!
+Archibald: Ти розчарував мене, {PlayerName}!
+
+# 9e411cfc
+; {PlayerName}: No, I'll keep it!
+{PlayerName}: Ні, я залишу його собі!
+
+# cc61e629
+; Archibald: This isn't fair, {PlayerName}! [i]You don't deserve trust.
+Archibald: Це нечесно, {PlayerName}![i]Ти не заслуговуєш на довіру.
+
+# bdb39e68
+; Ben: You're just selfish!
+Ben: Ти просто егоїст!
+
+# 86e36ab2
+; {PlayerName}: I completed the quest. [i]Well, life goes on...
+{PlayerName}: Я виконав квест.[i]Ну а життя триває...
