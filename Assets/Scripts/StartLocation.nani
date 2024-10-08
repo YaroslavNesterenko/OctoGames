@@ -8,6 +8,7 @@ Hello! What is your name?
 
 ;1---------------------------------------------------------------------------------------------
 
+@char Archibald scale:0.85 pos:35,0
 Archibald: Hello {PlayerName}![i] Nice to see you. [i]I have an important task for you.
 @wait 1
 @questUpdate questName:"Quest received"
@@ -16,13 +17,14 @@ Archibald: Hello {PlayerName}![i] Nice to see you. [i]I have an important task f
 
 Archibald: You should talk to Ben in Location2. He knows how to help.
 @wait 1
-
+@char Archibald visible:false
 @questUpdate questName:"Get information from NPC-2"
 
 ;3---------------------------------------------------------------------------------------------
 ; Location 2
 
 @back bg1
+@char Ben scale:0.75 pos:75,0
 Ben: Hello {PlayerName}![i] I heard that you were looking for me.
 @wait 0.5
 Ben: I have a mini-game for you. [i]Go through it and I will give you the information you need!
@@ -38,12 +40,16 @@ Ben: You completed the mini-game! [i]Now I can help you.
 
 
 Ben: Go to Location3 and pick up the item.
+@char Ben visible:false
 
 ; Location 3
 @back bg2
 ;@item "item_sprite"
 
+@char Map scale:0.7 pos:50,35
 {PlayerName}: This is the very item I need!
+@wait 1
+@char Map visible:false
 
 @questUpdate questName:"Pick up item"
 
@@ -59,6 +65,7 @@ Ben: Go to Location3 and pick up the item.
 ; Location 1
 
 @back bg_Scene
+
 
 
 

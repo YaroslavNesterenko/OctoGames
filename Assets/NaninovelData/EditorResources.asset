@@ -168,12 +168,9 @@ MonoBehaviour:
       guid: dd85ce99288c2f8488447fa511b1c0d6
   - Id: Scripts
     Resources:
-    - name: Quest
+    - name: StartLocation
       pathPrefix: Scripts
       guid: ea8cd1063d40c054bb50701c9255c205
-    - name: Location2
-      pathPrefix: Scripts
-      guid: 99eb484b1f815e243882e8aa0b63de02
   - Id: Backgrounds/04758d49-d2af-4006-bb55-d067d1026b58
     Resources:
     - name: bg1
@@ -197,3 +194,18 @@ MonoBehaviour:
     - name: bg_Scene
       pathPrefix: Backgrounds/MainBackground
       guid: cc23b315f775d8541aa30042704019af
+  - Id: Characters/5affb508-580b-4a13-b506-0ecff58026be
+    Resources:
+    - name: Archibald
+      pathPrefix: Characters/Archibald
+      guid: 122e6539a091e20448896cef2729ef4d
+  - Id: Characters/4be4863c-c175-40d5-94f7-01e36fd76d1b
+    Resources:
+    - name: Ben
+      pathPrefix: Characters/Ben
+      guid: ae699b61c0343e345ac38631e1240429
+  - Id: Characters/b2ac6700-0425-441e-8bb0-fc5abc53af40
+    Resources:
+    - name: Map
+      pathPrefix: Characters/Map
+      guid: ef10acf516440c84f8f9701a4b94bb00
