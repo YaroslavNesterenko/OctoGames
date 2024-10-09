@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 [CommandAlias("questUpdate")]
 public class QuestUpdateCommand : Command
 {
-    public StringParameter QuestName; // »м€ квеста, который мы обновл€ем
+    public StringParameter QuestName;
 
     public override UniTask ExecuteAsync(AsyncToken asyncToken = default)
     {
@@ -16,22 +16,17 @@ public class QuestUpdateCommand : Command
         }
         else
         {
-            // Ћогика обновлени€ квеста
             UpdateQuest(QuestName);
         }
 
-        return UniTask.CompletedTask; // ¬озвращаем завершение задачи
+        return UniTask.CompletedTask;
     }
 
     private void UpdateQuest(string questName)
     {
-        // «десь должна быть логика обновлени€ состо€ни€ квеста
-        // Ќапример, можно взаимодействовать с вашей системой квестов
-        // ƒл€ примера просто выведем сообщение в консоль
-
+        
         Engine.Log($" вест '{questName}' был обновлЄн.");
 
-        // ¬ы можете добавить свою логику дл€ обновлени€ квеста, например:
-        // QuestManager.UpdateQuestStatus(questName, newStatus);
+        
     }
 }

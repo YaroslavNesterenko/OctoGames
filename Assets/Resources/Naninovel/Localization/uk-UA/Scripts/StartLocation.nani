@@ -10,23 +10,23 @@
 
 # acd5ecbc
 ; Archibald: Hello {PlayerName}![i] Nice to see you. [i]I have an important task for you.
-Archibald: Привіт, {PlayerName}![i]Радий тебе бачити.[i]Маю для тебе важливе завдання.
+Archibald: Привіт, {PlayerName}![i] Радий тебе бачити. [i]Маю для тебе важливе завдання.
 
 # f1161213
 ; Archibald: You should talk to Ben in Location2. [i]He knows how to help.
-Archibald: Тобі слід поговорити з Беном у Локація2.[i]Він знає, як допомогти.
+Archibald: Тобі слід поговорити з Беном у Локація2. [i]Він знає, як допомогти.
 
 # 48d93ebe
 ; Ben: Hello {PlayerName}![i] I heard that you were looking for me.
-Ben: Привіт, {PlayerName}![i]Я чув, що ти мене шукаєш.
+Ben: Привіт, {PlayerName}![i] Я чув, що ти мене шукаєш.
 
 # f405820f
 ; Ben: I have a mini-game for you. [i]Go through it and I will give you the information you need!
-Ben: У мене для тебе є міні-гра.[i]Пройди його, і я надам тобі необхідну інформацію!
+Ben: У мене для тебе є міні-гра. [i]Пройди її і я надам тобі необхідну інформацію!
 
 # b79beca0
 ; Ben: You completed the mini-game! [i]Now I can help you.
-Ben: Ти завершив міні-гру![i]Тепер я можу тобі допомогти.
+Ben: Ти завершив міні-гру! [i]Тепер я можу тобі допомогти.
 
 # 325e4fd
 ; Ben: Go to Location3 and pick up the item.
@@ -38,11 +38,11 @@ Ben: Перейди до Локації3 і візьми предмет.
 
 # 541a9b6c
 ; {PlayerName}: I'm here again... [i]But Ben is missing.
-{PlayerName}: Я знову тут...[i]Але Бена немає.
+{PlayerName}: Я знову тут… [i]Але Бена немає.
 
 # 3af675c
 ; Archibald: Hello again, {PlayerName}! [i]Are you back?
-Archibald: Ще раз привіт, {PlayerName}![i]Ти повернувся?
+Archibald: Ще раз привіт, {PlayerName}! [i]Ти повернувся?
 
 # f3c0f18
 ; Ben: And what is your item?
@@ -54,7 +54,7 @@ Archibald: Дай мені цей предмет, і я допоможу тоб�
 
 # 35d41fc9
 ; Ben: No, {PlayerName}! [i]Better give it to me! [i]I'm more needed.
-Ben: Ні, {PlayerName}![i]Краще віддайте мені![i]Мені більш потрібно.
+Ben: Ні, {PlayerName}! [i]Краще віддайте мені! [i]Мені більш потрібно.
 
 # 2b3c4a9f
 ; @choice "Give to Archibald" goto:.ChooseArchibald
@@ -82,11 +82,11 @@ Ben: Як ти міг! Мені це було потрібно!
 
 # c85e020d
 ; {PlayerName}: This item is needed by Ben. [i]I'm giving it to you.
-{PlayerName}: Цей предмет потрібен Бену.[i]Я віддаю його тобі.
+{PlayerName}: Цей предмет потрібен Бену. [i]Я віддаю його тобі.
 
 # cd58c3a
 ; Ben: Thank you! [i]I knew you would make the right choice.
-Ben: Дякую![i]Я знав, що ти зробиш правильний вибір.
+Ben: Дякую! [i]Я знав, що ти зробиш правильний вибір.
 
 # 2c86c374
 ; Archibald: You disappointed me, {PlayerName}!
@@ -98,12 +98,12 @@ Archibald: Ти розчарував мене, {PlayerName}!
 
 # cc61e629
 ; Archibald: This isn't fair, {PlayerName}! [i]You don't deserve trust.
-Archibald: Це нечесно, {PlayerName}![i]Ти не заслуговуєш на довіру.
+Archibald: Це нечесно, {PlayerName}! [i]Ти не заслуговуєш на довіру.
 
 # bdb39e68
 ; Ben: You're just selfish!
 Ben: Ти просто егоїст!
 
-# 86e36ab2
-; {PlayerName}: I completed the quest. [i]Well, life goes on...
-{PlayerName}: Я виконав квест.[i]Ну а життя триває...
+# c0377bbb
+; {PlayerName}: I completed the quest. [i]Well, life goes on…
+{PlayerName}: Я виконав квест. [i]Ну а життя триває...

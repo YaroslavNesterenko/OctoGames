@@ -169,5 +169,10 @@ namespace DTT.MinigameMemory
             _isGameActive = false;
             _timer.Stop();
         }
+
+        public void DisableBoard()
+        {
+            _board.gameObject.SetActive(false);
+        }
     }
 }

@@ -30,8 +30,11 @@ Ben: Hello {PlayerName}![i] I heard that you were looking for me.
 Ben: I have a mini-game for you. [i]Go through it and I will give you the information you need!
 @wait 0.25
 
+@hideAll
 @startMiniGame wait:true
 
+@back bg1
+@char Ben scale:0.75 pos:75,0
 Ben: You completed the mini-game! [i]Now I can help you.
 
 @questUpdate questName:"Get an interactive item"
@@ -155,7 +158,7 @@ Ben: You're just selfish!
 @char Ben visible:false
 
 @questUpdate questName:"Final"
-{PlayerName}: I completed the quest. [i]Well, life goes on...
+{PlayerName}: I completed the quest. [i]Well, life goes on…
 
 @stop
 ;8---------------------------------------------------------------------------------------------
