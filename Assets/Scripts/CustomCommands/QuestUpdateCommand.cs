@@ -2,11 +2,13 @@ using Naninovel;
 using Naninovel.Commands;
 using System.Threading;
 using System.Threading.Tasks;
+using UnityEngine;
 
 [CommandAlias("questUpdate")]
 public class QuestUpdateCommand : Command
 {
     public StringParameter QuestName;
+    private ShowQuestInfo showQuestInfo;
 
     public override UniTask ExecuteAsync(AsyncToken asyncToken = default)
     {
@@ -24,9 +26,12 @@ public class QuestUpdateCommand : Command
 
     private void UpdateQuest(string questName)
     {
-        
-        Engine.Log($" вест '{questName}' был обновлЄн.");
+        if (!showQuestInfo)
+        {
+            showQuestInfo = GameObject.FindFirstObjectByType<ShowQuestInfo>();
+        }
 
-        
+        showQuestInfo.AddQuestInfo(questName);
+        Engine.Log($" вест '{questName}' был обновлЄн.");
     }
 }

@@ -18,7 +18,7 @@ Archibald: Hello {PlayerName}![i] Nice to see you. [i]I have an important task f
 Archibald: You should talk to Ben in Location2. [i]He knows how to help.
 @wait 0.25
 @char Archibald visible:false
-@questUpdate questName:"Get information from NPC-2"
+@questUpdate questName:"Get information from Archibald"
 
 ;3---------------------------------------------------------------------------------------------
 ; Location 2
@@ -37,7 +37,7 @@ Ben: I have a mini-game for you. [i]Go through it and I will give you the inform
 @char Ben scale:0.75 pos:75,0
 Ben: You completed the mini-game! [i]Now I can help you.
 
-@questUpdate questName:"Get an interactive item"
+@questUpdate questName:"Complete Ben's mini-game"
 
 ;4---------------------------------------------------------------------------------------------
 
