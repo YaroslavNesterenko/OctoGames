@@ -6,6 +6,8 @@ Hello! What is your name?
 @input PlayerName summary:"Choose your name."
 @stop
 
+@choice "Open Map" handler:MapMenu pos:600,450 goto:.OpenMap
+
 ;1---------------------------------------------------------------------------------------------
 
 @char Archibald scale:0.85 pos:35,0
@@ -34,6 +36,7 @@ Ben: I have a mini-game for you. [i]Go through it and I will give you the inform
 @startMiniGame wait:true
 
 @back bg1
+@choice "Open Map" handler:MapMenu pos:600,450 goto:.OpenMap
 @char Ben scale:0.75 pos:75,0
 Ben: You completed the mini-game! [i]Now I can help you.
 
@@ -162,3 +165,28 @@ Ben: You're just selfish!
 
 @stop
 ;8---------------------------------------------------------------------------------------------
+
+
+
+#OpenMap
+@hideAll
+@back bg3
+@choice handler:ButtonArea button:Naninovel/MapButtons/Location1 pos:-300,-300 goto:.Location1
+@choice handler:ButtonArea button:Naninovel/MapButtons/Location2 pos:0,0 goto:.Location2
+@choice handler:ButtonArea button:Naninovel/MapButtons/Location3 pos:300,200 goto:.Location3
+@stop
+
+# Location1
+@back bg_Scene
+Location1
+@goto .OpenMap
+
+# Location2
+@back bg1
+Location2
+@goto .OpenMap
+
+# Location3
+@back bg2
+Location3
+@goto .OpenMap

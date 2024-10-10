@@ -209,3 +209,8 @@ MonoBehaviour:
     - name: Map
       pathPrefix: Characters/Map
       guid: ef10acf516440c84f8f9701a4b94bb00
+  - Id: ChoiceHandlers/2ac8c113-d087-4e7a-8291-f993560c3745
+    Resources:
+    - name: MapMenu
+      pathPrefix: ChoiceHandlers
+      guid: 9214e056083e4394abea08b99df870be
